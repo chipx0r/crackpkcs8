@@ -1,6 +1,6 @@
 /* crackpkcs8 is a multithreaded program to crack PKCS8 files
 *  Copyright (C) 2011, 2012 Alfredo Esteban de la Torre. -> crackpkcs12
-*  Modified without permission by Sergio Zavala -> twitter: @chipx0r
+*  Modified without permission by -> twitter: @chipx0r
 *  Compile: gcc crackpkcs8.c -o crackpkcs8 -lssl -lcrypto -lpthread
 *
 *  This program is free software: you can redistribute it and/or modify
