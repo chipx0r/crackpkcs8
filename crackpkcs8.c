@@ -80,7 +80,7 @@ typedef struct {
 
 void usage() {
 	printf(
-"\nUsage:\n\ncrackpkcs8 { -d <dictionary_file> |  -b [ -m <min_psw_length> ] [ -M <max_psw_length> ] [ -c <base_char_sets> | -i <specific_char_sets> ] } [ -t <num_of_threads> ] [ -f ] [ -v ] <file_to_crack>\n"
+"\nUsage:\n\ncrackpkcs8 { -d <dictionary_file> |  -b [ -m <min_psw_length> ] [ -M <max_psw_length> ] [ -c <base_char_sets> | -s <specific_char_sets> ] } [ -t <num_of_threads> ] [ -f ] [ -v ] <file_to_crack>\n"
 "\n"
 "  -f                       DER file type (default PEM file type)\n\n"
 "  -b                       Uses brute force attack\n\n"
